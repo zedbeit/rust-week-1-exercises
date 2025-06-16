@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Welcome! This exercise is designed to help you practice key Rust programming skills specifically for Bitcoin. 
+Welcome! This exercise is designed to help you practice key Rust programming skills specifically for Bitcoin development. 
 Your task is to complete the `todo!()` items found in the source files located in the `src/` directory.
 
 1. Fork this repository.
@@ -37,7 +37,7 @@ Your task is to complete the `todo!()` items found in the source files located i
 
 <img src="https://github.com/btrust-builders/rust-week-1-exercises/blob/main/success.png" width="1000" />
 
-10. Submit your solution to this form: [Google form](https://forms.gle/eDRGAJXpLqRxEExR6).
+10. Submit your solution to this form: [Google form](https://forms.gle/a3ibaSHcqpaZWsnPA).
 
 PS: You can commit and push as often as you like and GitHub Actions will re-evaluate your code every time.
 You will need to look through the auto-grader logs (in the "Actions" tab) to see what exactly you got right or wrong.
