@@ -14,7 +14,10 @@ pub fn extract_tx_version(raw_tx_hex: &str) -> Result<u32, String> {
         .ok_or_else(|| format!("Hex decode error: invalid digit '{}'", ch))?;
 
     if val > 9 {
-        return Err(format!("Hex decode error: '{}' is not a decimal number (0-9)", ch));
+        return Err(format!(
+            "Hex decode error: '{}' is not a decimal number (0-9)",
+            ch
+        ));
     }
 
     Ok(val)
